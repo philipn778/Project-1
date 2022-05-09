@@ -63,8 +63,8 @@
     border-radius: 10px;
 }
 
-/* home sektion */
-#Hem{
+/* home section */
+#home{
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.5);
@@ -74,7 +74,7 @@
     color: white;
 }
 
-#Hem::before{
+#home::before{
     content: '';
     position: absolute;
     top: 0px;
@@ -192,7 +192,7 @@ div, h3, p{
 
 /* Services */
 
-#tjänster{
+#services{
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -337,9 +337,10 @@ bottom: 0;
         box-sizing: border-box;
         padding: 10px 20px;
         margin: 0;
+        height: 1100px;
     }
     
-        #about h1 h3 {
+        #about h1 h3{
             padding: 30px 0;
             margin: 0;
         }
@@ -357,7 +358,7 @@ bottom: 0;
         }
 
         .toggle-button{
-            display: flex;
+            display: flex; 
         }
 
     .navbar ul li{
@@ -369,13 +370,13 @@ bottom: 0;
             display: none;
         }
 
-    #hem{
+    #home{
         width: 100%;
     }
 
-        #hem::before{
+        #home::before{
             width: 100%;
-            height: 1200px;
+            height: 880px;
             margin: 0 auto;
         }
 
@@ -393,6 +394,5 @@ bottom: 0;
 
         #bild{
             flex-direction: column;
-            display: flex;
-        }
+            display: flex;        }
 }

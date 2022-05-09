@@ -79,7 +79,7 @@
     position: absolute;
     top: 0px;
     right: 0px;
-    background: url('bild/scrub.JPG') no-repeat center center/cover;
+    background: url('images/scrub.JPG') no-repeat center center/cover;
     height: 900px;
     width: 100%;
     z-index: -1;
@@ -123,7 +123,7 @@
 }
 
 /* About section */
-#ommig{
+#about{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -331,7 +331,7 @@ bottom: 0;
 
 @media screen and (max-width: 1200px) {
     
-    #ommig{
+    #about{
         display: flex;
         flex-direction: column;
         box-sizing: border-box;
@@ -339,17 +339,17 @@ bottom: 0;
         margin: 0;
     }
     
-        #ommig h1 h3 {
+        #about h1 h3 {
             padding: 30px 0;
             margin: 0;
         }
     
-        #ommig img{
+        #about img{
             width: 100%;
             padding: 0;
         }
     
-        #ommig p {
+        #about p {
             clear: both;
             width: 100%;
             float: left;

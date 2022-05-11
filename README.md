@@ -39,5 +39,27 @@ Here you can hire me as your private coach to improve your motocross skills, rid
 
  # Features left to implement
 * ### A working toggle button with help of java script
+* ### Another feature idea
+
+# Testing
+* ### HTML
+    * No errors were returned when passing through the official W3C validator
+ ![NORBERG RACING ACADEMY](assets/images/html.jpg)
+ * ### CSS
+    * No errors were returned when passing through the official (Jigsaw) validator
+![NORBERG RACING ACADEMY](assets/images/css.png)
+
+# Unfixed bugs
+* ### Togglebutton on smaller device
+    * I found out that I need to use JavaScript to make it work correctly, so now the button only shows. I still kept it there to make it look more sense when you're on a smaller screen. 
+
+# Deployment
+
+# Credits
+
+
+
+
+
 
 

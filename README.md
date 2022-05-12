@@ -57,7 +57,14 @@ Here you can hire me as your private coach to improve your motocross skills, rid
 
 # Credits
 
+* ### Content
+    * I coded the template from https://www.youtube.com/watch?v=zX3ikOsQg58
+    * I coded the toggle button from https://www.youtube.com/watch?v=At4B7A4GOPg
 
+* ### Media
+    * All the images on the site is taken by myself or made by myself.
+
+All code is written by me. 
 
 
 

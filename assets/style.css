@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'RaceFont';
+    src: url('fonts/RaceSport-BWPLV.ttf');
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li{
+    font-family: 'RaceFont', 'Times New Roman', Times, serif; 
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: rgb(255, 157, 0);
+    color: black;
+    box-shadow: 0 0 10px rgb(255, 85, 18);
+}
+
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 22px;
+}
+
+.toggle-button .bar{
+    height: 4px;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#home::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: url('images/scrub.JPG') no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid white;*/
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+
+.headings{
+    font-family: 'RaceFont', 'Times New Roman', Times, serif; 
+    font-size: 2rem;
+    text-align: center;
+    margin: 40px 0px;
+
+}
+
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+    font-family: 'RaceFont', 'Times New Roman', Times, serif; 
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 157, 0);
+    color: black;
+    box-shadow: 0 0 5px rgb(255, 85, 18), 0 0 10px rgb(255, 85, 18), 0 0 15px rgb(255, 85, 18);
+    font-weight: bold;
+    border: 1px solid rgb(255, 157, 0);
+}
+
+/* About section */
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 50px 90px;
+    margin-bottom: 50px;
+}
+
+div, h3, p{
+    font-family: 'RaceFont', 'Times New Roman', Times, serif; 
+}
+
+#bild{
+    display: flex;
+}
+
+#bild img{
+    width: auto;
+    height: 575px;
+}
+
+#logo{
+    display: flex;
+}
+
+#logo img{
+    text-align: center;
+    width: 600px;
+    height: auto;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+
+#intro h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/*Portfolio section*/
+
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 20px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.gallery img{
+    width: auto;
+    height: 240px;
+    margin: 10px;   
+}
+
+/* Services */
+
+#services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 45px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(255, 157, 0) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+
+.box:hover{
+    background-position: left bottom;
+    color: black;
+    border: none;
+    box-shadow: 0 0 20px rgb(255, 85, 18);
+}
+
+.box img{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    padding: 10px;
+}
+
+/*Contact Section*/
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+
+#msg{
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+}
+
+#send{
+    padding: 10px;
+    width: 90px;
+    margin: 40px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    font-family: 'RaceFont', 'Times New Roman', Times, serif; 
+}
+
+#send:hover{
+    cursor: pointer;
+    background-color: rgb(255, 157, 0);
+    color: black;
+    box-shadow: 0 0 5px rgb(255, 85, 18), 0 0 10px rgb(255, 85, 18), 0 0 15px rgb(255, 85, 18);
+    font-weight: bold;
+    border: 1px solid rgb(255, 157, 0);
+}
+
+/*Footer menu*/
+
+.footerbar{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.9);
+bottom: 0;
+}
+
+.footerbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.footerbar ul li{
+    font-family: 'RaceFont', 'Times New Roman', Times, serif; 
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.footerbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+.footerbar ul li a:hover{
+    background-color: rgb(255, 157, 0);
+    color: black;
+    box-shadow: 0 0 10px rgb(255, 85, 18);
+}
+
+/*Media queries*/
+
+/*For smaller screeens*/
+
+@media screen and (max-width: 1200px) {
+    
+    #about{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 10px 20px;
+        margin: 0;
+        height: 1100px;
+    }
+    
+        #about h1 h3{
+            padding: 30px 0;
+            margin: 0;
+        }
+    
+        #about img{
+            width: 100%;
+            padding: 0;
+        }
+    
+        #about p {
+            clear: both;
+            width: 100%;
+            float: left;
+            padding: 0;
+            font-size: small;
+        }
+
+        #logo img{
+            display: none;
+        }
+
+        .toggle-button{
+            display: flex; 
+        }
+
+    .navbar ul li a{
+    display: flex;
+    margin-top: 20px;
+    padding: .10rem .1rem;
+    }
+
+    .navbar ul{
+        flex-direction: column;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: right;
+        position: static;
+        top: 0;
+    
+    }
+
+    hr {
+            display: none;
+        }
+
+    #home{
+        width: 100%;
+    }
+
+        #home::before{
+            width: 100%;
+            height: 1060px;
+            margin: 0 auto;
+        }
+
+        #intro{
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        #portfolio{
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+        }
+
+        #bild{
+            flex-direction: column;
+            display: flex;        
+        }
+}

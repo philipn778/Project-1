@@ -42,6 +42,9 @@ Here you can hire me as your private coach to improve your motocross skills, rid
 * ### Another feature idea
 
 # Testing
+I've been testing a lot with different sizes of pixels, percentage and more to make the screen fit all devices. I had a tough time but managed in the end to make it work by testing. 
+I've also tested many different ways in how I should have my navbar in smaller screens and thought the best way was to put it in a corner with a toggle button above the links. 
+I couldnt get the toggle button to work but in the next project with help of JavaScript I might fix it. 
 * ### HTML
     * No errors were returned when passing through the official W3C validator
  ![NORBERG RACING ACADEMY](assets/images/html.jpg)
@@ -54,6 +57,13 @@ Here you can hire me as your private coach to improve your motocross skills, rid
     * I found out that I need to use JavaScript to make it work correctly, so now the button only shows. I still kept it there to make it look more sense when you're on a smaller screen. 
 
 # Deployment
+* ### The site was deployed to GitHub pages. The steps to deploy are as follows:
+    * In the GitHub repository, navigate to the Settings tab.
+    * From the source section drop-down menu, select the Main Branch.
+    * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://philipn778.github.io/Project-1/home.html#
+
 
 # Credits
 
